@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Darkhanbarilga.mn",
+    "slug": "darkhanbarilga",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "darkhanbarilga",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "description": "Монголын шилдэг үл хөдлөх хөрөнгийн платформ",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "mn.darkhanbarilga.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "mn.darkhanbarilga.app",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "apiUrl": "https://darkhanbarilga-backend-production.up.railway.app/api",
+      "router": {},
+      "eas": {
+        "projectId": "88eff5da-326e-47c8-9c6c-68da3a8bfc90"
+      }
+    },
+    "owner": "arcfly"
+  }
+}
